@@ -1,0 +1,10 @@
+1) to begin build: npx create-next-app@latest APP_NAME
+
+2) to run dev server: npm run dev
+
+***
+- Next.js Folder Structure : 
+    - Public - store static content
+    - Pages - source code 
+    - Styles - CSS
+
