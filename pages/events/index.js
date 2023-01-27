@@ -11,6 +11,7 @@ const Page = () => {
       </header>
 
       <h1>Events (home)</h1>
+      <p>what</p>
     </div>
   );
 };
