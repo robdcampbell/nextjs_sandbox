@@ -9,6 +9,7 @@ const Page = () => {
           <a href="/about">About Us</a>
         </nav>
       </header>
+
       <h1>Events (home)</h1>
     </div>
   );
