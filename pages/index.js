@@ -14,18 +14,45 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <header>
+        <nav>
+          <img src="" alt="" />
+          <a href="/">Home</a>
+          <a href="/events">Events</a>
+          <a href="/about">About Us</a>
+        </nav>
+      </header>
       <main className={styles.main}>
-        <header>
-          <nav>
-            <img src="" alt="" />
-            <a href="/">Events</a>
-            <a href="/events">Home</a>
-            <a href="/about">About Us</a>
-          </nav>
-        </header>
+        <a href="">
+          <h2>Events in London</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil in
+            officiis laborum eaque a dolorem, quidem eligendi earum aspernatur
+            repellendus voluptate unde facilis quam harum neque eos asperiores,
+            eius ipsa!
+          </p>
+        </a>
+        <a href="">
+          <h2>Events in San Franciso</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil in
+            officiis laborum eaque a dolorem, quidem eligendi earum aspernatur
+            repellendus voluptate unde facilis quam harum neque eos asperiores,
+            eius ipsa!
+          </p>
+        </a>
+        <a href="">
+          <h2>Events in New York</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil in
+            officiis laborum eaque a dolorem, quidem eligendi earum aspernatur
+            repellendus voluptate unde facilis quam harum neque eos asperiores,
+            eius ipsa!
+          </p>
+        </a>
       </main>
       <footer className={styles.footer}>
-        <p>footer</p>
+        <p>2023 - NextJs Events Project</p>
       </footer>
     </>
   );

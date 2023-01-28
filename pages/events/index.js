@@ -4,14 +4,23 @@ const Page = () => {
       <header>
         <nav>
           <img src="" alt="" />
-          <a href="/">Events</a>
-          <a href="/events">Home</a>
+          <a href="/">Home</a>
+          <a href="/events">Events</a>
           <a href="/about">About Us</a>
         </nav>
       </header>
-
-      <h1>Events (home)</h1>
-      <p>what</p>
+      <h1>Events Page</h1>
+      <div>
+        <a href="">
+          <h2>Events in London</h2>
+        </a>
+        <a href="">
+          <h2>Events in San Franciso</h2>
+        </a>
+        <a href="">
+          <h2>Events in New York</h2>
+        </a>
+      </div>
     </div>
   );
 };
